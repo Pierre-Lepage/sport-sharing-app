@@ -79,3 +79,6 @@ yarn.lock
 # Debug
 debug.log
 debug/
+
+server/uploads/*
+!server/uploads/.gitkeep

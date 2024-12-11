@@ -1,0 +1,15 @@
+sport-sharing-app/
+├── node_modules/
+├── public/
+├── server/           # Nouveau dossier pour le backend
+│   ├── src/
+│   │   ├── config/     # Configuration DB, env, etc.
+│   │   ├── models/     # Modèles MongoDB
+│   │   ├── routes/     # Routes API
+│   │   ├── middleware/ # Middlewares personnalisés
+│   │   └── app.ts      # Point d'entrée de l'application
+│   ├── package.json
+│   └── tsconfig.json
+├── src/              # Frontend React existant
+├── package.json      # Package.json du frontend
+└── README.md
